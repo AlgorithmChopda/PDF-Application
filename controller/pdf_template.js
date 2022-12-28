@@ -11,7 +11,7 @@ const template = (name, no, token) => {
             <br /> <br /> <br /> <br /><br /><br /> <br /><br /> <br />
             <br /> <br /> <br /> <br /><br /><br /> <br /><br /> <br />
             <br /> <br /> <br /> <br /><br /><br /> <br /><br /> <br />
-            <br /> <br /> <br /> <br /><br /><br /> <br /><br /> <br />
+            <br /> <br /> <br /> <br /><br /><br /> <br /><br /> 
         `
     )
 }
