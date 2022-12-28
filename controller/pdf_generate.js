@@ -18,7 +18,7 @@ const pdf_generate = async (req, res) => {
             content += template(ar[i].membername, ar[i].no, ar[i].token);
         }
  
-        const browser = await puppeteer.launch({headless: true})        
+        const browser = await puppeteer.launch({headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox']})        
         const page = await browser.newPage();
             
         await page.setContent(content);
